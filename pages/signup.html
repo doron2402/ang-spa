@@ -1,6 +1,6 @@
 <div class="jumbotron text-center">
 	<h3>{{ message }}</h3>
 	<div ng-repeat="option in signupOptions">
-	  {{ option }}
+	  <a href="{{ option.link }}">{{ option.name }}</a>
 	</div>
 </div>
