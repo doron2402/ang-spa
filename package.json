@@ -1,0 +1,19 @@
+{
+  "name": "angular-spa",
+  "version": "0.0.0",
+  "description": "angular app - single page application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/ang-spa.git"
+  },
+  "author": "Doron Segal",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/doron2402/ang-spa/issues"
+  },
+  "homepage": "https://github.com/doron2402/ang-spa"
+}
