@@ -2,6 +2,7 @@
 	scotchApp.controller('mainController', function($scope) {
 		// create a message to display in our view
 		$scope.message = 'Everyone come and see how good I look!';
+		$scope.current_user = {username: 'doron2402'};
 	});
 	
 	//Signup Controller

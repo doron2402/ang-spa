@@ -35,8 +35,12 @@
         </li>
         </li>
         <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a>
-        <li><a href="#signup"><i class="fa fa-comment"></i> Signup</a>
-        <li><a href="#me"><span class="glyphicon glyphicon-user"></span></a></li>
+        <div ng-if="current_user.username == undefined">
+          <li><a href="#signup"><i class="fa fa-comment"></i> Signup</a>
+        </div>
+        <div ng-if="current_user.username != null">
+           <li><a href="#me"><span class="glyphicon glyphicon-user"></span></a></li>
+        </div>
       </ul>
     </div>
   </nav>
